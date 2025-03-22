@@ -6,6 +6,7 @@ echo Username : %USERNAME%
 :: %USERNAME% used for display the username of the user.
 
 echo Version : 
+ver
 :: ver command is used to display current Windows version.
 
 pause
