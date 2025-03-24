@@ -10,3 +10,11 @@
 
   | Codes | Output |
   |-------|--------|
+  |['Linux_Commands.txt'](./Linux_Commands/Codes/Linux_Commands.txt)|![touch.png](./Linux_Commands/Outputs/touch.png)|
+  | |![vi.png](./Linux_Commands/Outputs/vi.png)|
+  | |![chmod.png](./Linux_Commands/Outputs/chmod.png)|
+  | |![wc.png](./Linux_Commands/Outputs/wc.png)|
+  | |![cut.png](./Linux_Commands/Outputs/cut.png)|
+  | |![head.png](./Linux_Commands/Outputs/head.png)|
+  | |![tail.png](./Linux_Commands/Outputs/tail.png)|
+  | |![head_tail.png](./Linux_Commands/Outputs/head_tail.png)|
