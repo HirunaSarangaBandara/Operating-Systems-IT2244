@@ -1,0 +1,161 @@
+touch Example.txt
+
+	# Purpose :
+		This command is used for create a empty folder.
+		
+	# How the command works : 
+		Type the touch filename in the terminal and the system checks if there are any file  exists.
+		If doesn't, it creates an empty file with the name.
+
+vi Example.txt
+
+	# Purpose :
+		This command is used for creating or editing the text in files.
+	
+	# How the command works :
+		The vi command open the vi editor to creating and editing text. Press 'i' to type, 'Esc' to stop,
+		and ':wq' to save and exit. Use ':q!' to quit without saving.
+		
+more Example.txt
+
+	# Purpose :
+		This command is used to view the content of the file.
+		
+	# How the command works :
+		when you type the more Example.txt it shows the file's content.
+		
+chmod 777 Example.txt
+
+	# Purpose :
+		This command is used for change mode of the file and it used to modify the file permission.
+			
+	# 777 means :
+		* First 7 is gives to the users read, write and execute permissions.
+		* Second 7 is gives to the system read, write and execute permissions.
+		* First 7 is gives to the group read, write and execute permissions.
+		
+	# How the command works :
+		
+		* 7 = 4 (read) + 2 (write) + 1 (execute)
+		
+				
+			Calculate 
+				
+			   1	    1    	  1   -> binary( 1 or 0)
+				
+			 (read)  (write)  (execute)
+			 
+		   	 (4         2         1) 
+		
+			*As a example you want to give 
+				user to read-write-execute  -> 1 1 1 (4 + 2 + 1 ) = 7
+				system to read and write only -> 1 1 0 (4 + 2 + 0) = 6
+				group to execute only -> 0 0 1 (0 + 0 + 1) = 1
+				
+ls -ltr
+
+	# Purpose :
+		This command is used to list files and directories in a specific order.
+	
+	# How the command works :
+		* ls is used to list files and directories.
+		* -l shows detiled information about each file such as given permissions, user and size etc.
+		* t sorts the files by the modification time, with the newest file first.
+		* r reverse the files order to oldest to newest.
+		
+wc Example.txt
+	
+	# Purpose :
+		This command is used to count the number of lines, words and characters in a file or input.
+		
+	# How the command works :
+		Using following commands you can find;
+			* wc -l Example.txt - > Only the numbers of lines.
+			* wc -w Example.txt - > Only the numbers of words.
+			* wc -c Example.txt - > Only the numbers of characters.
+			* wc -L Example.txt - > Maximum line length.
+			
+cut -d, -f1,3 Example.txt -> extract field 1 and 3 in Example.txt
+	
+	# Purpose :
+		This command is used to extract specific sections (like columns or characters) from a file.
+		
+	# How the command works :
+		* cut for cut the section of text.
+		* -f for specifies the fields (columns) to extract.
+		* -d for defines the delemiter that seperate the folders.(like comma or tab space).
+		
+			 
+		* If you want to extract special number of characters from each line
+		
+		you can use, 
+			cut -c1-5 Example.txt -> extract first 5 number from each lines
+			
+awk
+
+	# Purpose :
+		The awk command helps extract and process text, especially in columns.
+		
+	# How the command works :
+		Example :
+		* awk '{print $1}' Example.txt -> Get first word/column from first line.
+		
+		* awk -F',' '{print NF;exit}' Example.txt -> Get number of columns. 
+			-F',': Set the delimiter
+			NF : Represent the number of fields (Columns)
+			exit : Ensures only the first line is checked
+			
+head
+	
+	# Purpose :
+		This command is used for display the first few lines of a file.
+		By default, it shows the first 10 lines.
+		
+	# How the command works : 
+		Example : 
+		* head Example.txt -> print first 10 lines.
+		* head -4 Example.txt -> print first four lines.
+		
+tail
+
+	# Purpose :
+		This command is used for show the last few lines of a file.
+		By default, it displays the last 10 lines.
+		
+	# How the command works : 
+		Example : 
+			* tail Example.txt -> print last 10 lines.
+			* tail -3 Example.txt -> print last three lines.
+			
+head -n7 Example.txt | tail -n1
+
+	# Purpose : 
+		print only line 7.
+		
+	# How the command works : 
+		* head -n7 Example.txt: Displays the first 7 lines of the file Example.txt
+		* |: The pipe (|) sends the output of the head command as input to the tail command.
+		* tail -n1: From the 7 lines provided by head, it shows only the last line (which is the 7th line).
+		
+head -n8 Example.txt | grep 'James'
+	# Purpose :
+		This command searches for lines containing 'James' in Example.txt
+		
+	# How the command works : 
+		head -n8 Example.txt → Gets the first 8touch lines of Example.txt.
+		
+		| grep 'James' → Filters and displays only the lines that 
+		                  contain "James" from those 10 lines.
+						  
+		*The grep command used to search specific text in a file
+
+
+
+
+
+
+
+		
+		
+		
+		
