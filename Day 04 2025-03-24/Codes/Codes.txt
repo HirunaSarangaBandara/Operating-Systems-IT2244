@@ -1,4 +1,6 @@
-//'cal' is shows the current month's calendarliveuser@hiruna-live:~$ cal  
+//'cal' is shows the current month's calendar
+
+cal  
 
      April 2025     
 Su Mo Tu We Th Fr Sa
@@ -11,32 +13,33 @@ Su Mo Tu We Th Fr Sa
 
 //'date +%d' prints the current day of the month 
 
-liveuser@hiruna-live:~$ date +%d
+date +%d
 02
              
 //'date +%A' prints the full name of the current day of the week
 
-liveuser@hiruna-live:~$ date +%A
+date +%A
 Wednesday
 			 
 
 //'date +%a' prints the shortened name of the current day of the week.
 
-liveuser@hiruna-live:~$ date +%a
+date +%a
 Wed
 
 //'date +%B' prints the full name of the current month.
 
-liveuser@hiruna-live:~$ date +%B
+date +%B
 April
 
 //'date +%b' prints the short name of the current month 
 
-liveuser@hiruna-live:~$ date +%b
+date +%b
 Apr
 
 //'date +%y' prints the last two digits of the current year
-liveuser@hiruna-live:~$ date +%y
+
+date +%y
 25
 
 //'date +%m' prints the current month as a two-digit number 
@@ -46,30 +49,35 @@ liveuser@hiruna-live:~$ date +%m
 
 //'date +%H' prints the current hour in 24-hour format 
 
-liveuser@hiruna-live:~$ date +%H
+date +%H
 09
 
 //'date +%M' prints the current minute 
 
-liveuser@hiruna-live:~$ date +%M
+date +%M
 47
 
 //'date +%S' prints the current second 
-liveuser@hiruna-live:~$ date +%S
+
+date +%S
 54
 
 
 //Create the 'sh' file:
-liveuser@hiruna-live:~$ touch abc.sh
+
+touch abc.sh
 
 //Edit the file with vi:
-liveuser@hiruna-live:~$ vi abc.sh
+
+vi abc.sh
 
 //Change the file permissions:
-liveuser@hiruna-live:~$ chmod 777 abc.sh
+
+chmod 777 abc.sh
 
 //Execute the script:
-liveuser@hiruna-live:~$ ./abc.sh
+
+./abc.sh
 
 Enter your Name: 
 Hiruna
