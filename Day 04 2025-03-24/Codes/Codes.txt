@@ -1,4 +1,4 @@
-//'cal' is shows the current month's calendarliveuser@ushani-live:~$ cal  
+//'cal' is shows the current month's calendarliveuser@hiruna-live:~$ cal  
 
      April 2025     
 Su Mo Tu We Th Fr Sa
