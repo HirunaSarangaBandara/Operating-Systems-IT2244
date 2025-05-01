@@ -2,4 +2,4 @@
 
   | Codes | Output |
   |-------|--------|
-  |['Codes.txt'](./Codes/Godes.txt)|![1.png](./Outputs/1.png)|
+  |['Codes.txt'](./Codes/Codes.txt)|![1.png](./Outputs/1.png)|
