@@ -64,7 +64,7 @@ Output:
 		Enter the first number: 4
 		Enter the second number: 2
 		Summation: 6
-		Substraction: 6
+		Substraction: 2
 		Division: 2
 		Multiplication: 8
 */
