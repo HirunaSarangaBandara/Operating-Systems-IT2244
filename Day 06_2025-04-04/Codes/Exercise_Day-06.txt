@@ -46,7 +46,7 @@ echo "Average: " $avg
 chmod 777 marks.sh
 ./marks.sh
 Enter the Name: 
-Ushani
+Hiruna
 Enter the mark for subject1 : 
 80
 Enter the mark for subject2 : 
